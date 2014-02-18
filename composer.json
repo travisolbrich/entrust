@@ -1,5 +1,5 @@
 {
-    "name": "zizaco/entrust",
+    "name": "travisolbrich/entrust",
     "description": "This package provides a flexible way to add Role-based Permissions to Laravel 4",
     "keywords": ["laravel","illuminate","auth","roles"],
     "license": "MIT",
@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.0.x",
+        "illuminate/support": "*",
         "laravelbook/ardent": "*"
     },
     "require-dev": {
