@@ -13,10 +13,16 @@
             "homepage": "http://www.andrewelkins.com"
         }
     ],
+    "repositories": [
+        {
+        	"type": "vcs",
+        	"url": "https://github.com/travisolbrich/ardent"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "*",
-        "laravelbook/ardent": "*"
+        "travisolbrich/ardent": "*"
     },
     "require-dev": {
         "illuminate/database": "4.0.x",
